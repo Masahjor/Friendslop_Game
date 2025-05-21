@@ -646,7 +646,8 @@ MonoBehaviour:
   moveSpeed: 6
   movementMultiplier: 5
   airMultiplier: 0.4
-  jumpForce: 75
+  jumpForce: 40
+  fallMultiplier: 10
   jumpKey: 32
 --- !u!54 &1808678671
 Rigidbody:

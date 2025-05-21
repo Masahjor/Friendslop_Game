@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float airMultiplier = 0.4f;
 
     [Header("Jumping")]
-    public float jumpForce = 75f;
+    public float jumpForce = 20f;
     public float fallMultiplier = 2.0f;
 
     [Header("Keybinds")]
@@ -29,6 +29,7 @@ public class PlayerController : MonoBehaviour
     Vector3 moveDirection;
 
     Rigidbody rb;
+
 
     private void Start()
     {
@@ -49,13 +50,14 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+
     private void FixedUpdate() 
     {
         MovePlayer();
 
-        if (rb.angularVelocity.y < 0)
+        if (rb.linearVelocity.y < 0)
         {
-            rb.angularVelocity += Vector3.up * Physics.gravity.y * fallMultiplier * Time.deltaTime;
+            rb.linearVelocity += Vector3.up * Physics.gravity.y * fallMultiplier * Time.deltaTime;
         }
     }
 
