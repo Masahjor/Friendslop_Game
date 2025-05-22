@@ -4,13 +4,15 @@ public class PlayerController : MonoBehaviour
 {
     float playerHeight = 1f;
 
+    [SerializeField] Transform Orientation;
+
     [Header("Movement")]
     public float moveSpeed = 6.0f;
     public float movementMultiplier = 5f;
-    [SerializeField] float airMultiplier = 0.4f;
+    [SerializeField] float airMultiplier = 0.5f;
 
     [Header("Jumping")]
-    public float jumpForce = 20f;
+    public float jumpForce = 50f;
     public float fallMultiplier = 2.0f;
 
     [Header("Keybinds")]
@@ -24,7 +26,10 @@ public class PlayerController : MonoBehaviour
     float horizontalMovement;
     float verticalMovement;
 
+    [Header("Ground Detection")]
+    [SerializeField] LayerMask groundMask;
     bool isGrounded;
+    float groundDistance = 0.4f;
 
     Vector3 moveDirection;
 
@@ -39,7 +44,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        isGrounded = Physics.Raycast(transform.position, Vector3.down, playerHeight / 2);
+        isGrounded = Physics.CheckSphere(transform.position - new Vector3(0,0,0), groundDistance, groundMask);
 
         MyInput();
         ControlDrag();
@@ -66,7 +71,7 @@ public class PlayerController : MonoBehaviour
         horizontalMovement = Input.GetAxisRaw("Horizontal");
         verticalMovement = Input.GetAxisRaw("Vertical");
 
-        moveDirection = transform.forward * verticalMovement + transform.right * horizontalMovement;
+        moveDirection = Orientation.forward * verticalMovement + Orientation.right * horizontalMovement;
     }
 
     void Jump() 

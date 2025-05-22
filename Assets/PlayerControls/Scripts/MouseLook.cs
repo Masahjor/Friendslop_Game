@@ -2,10 +2,11 @@ using UnityEngine;
 
 public class MouseLook : MonoBehaviour
 {
-    [SerializeField] private float sensX;
-    [SerializeField] private float sensY;
+    [SerializeField] private float sensX = 100f;
+    [SerializeField] private float sensY = 100f;
 
-    Camera cam;
+    [SerializeField] Transform cam;
+    [SerializeField] Transform Orientation;
 
     float mouseX;
     float mouseY;
@@ -17,22 +18,11 @@ public class MouseLook : MonoBehaviour
 
     private void Start()
     {
-        cam = GetComponentInChildren<Camera>();
-
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
 
     private void Update() 
-    {
-        MyInput();
-
-        cam.transform.localRotation = Quaternion.Euler(xRotation, 0, 0);
-        transform.rotation = Quaternion.Euler(0, yRotation, 0);
-    }
-
-
-    void MyInput() 
     {
         mouseX = Input.GetAxisRaw("Mouse X");
         mouseY = Input.GetAxisRaw("Mouse Y");
@@ -41,5 +31,9 @@ public class MouseLook : MonoBehaviour
         xRotation -= mouseY * sensY * multiplier;
 
         xRotation = Mathf.Clamp(xRotation, -70, 70);
+
+        cam.transform.rotation = Quaternion.Euler(xRotation, yRotation, 0);
+        Orientation.rotation = Quaternion.Euler(0, yRotation, 0);
     }
+
 }
