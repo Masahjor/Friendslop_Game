@@ -3,7 +3,6 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     float playerHeight = 1f;
-
     [SerializeField] Transform Orientation;
 
     [Header("Movement")]
@@ -44,6 +43,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody rb;
 
     RaycastHit slopeHit;
+
     private bool OnSlope()
     {
         if(Physics.Raycast(transform.position, Vector3.down, out slopeHit,playerHeight / 2 + 0.5f)) 
@@ -104,6 +104,7 @@ public class PlayerController : MonoBehaviour
     void Jump() 
     {
         rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0, rb.linearVelocity.z);
+        rb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
     }
 
     void ControlSpeed() 
@@ -145,6 +146,4 @@ public class PlayerController : MonoBehaviour
             rb.AddForce(moveDirection.normalized * moveSpeed * movementMultiplier * airMultiplier, ForceMode.Acceleration);
         }
     }
-
-
 }
