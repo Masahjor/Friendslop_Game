@@ -7,16 +7,22 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Transform Orientation;
 
     [Header("Movement")]
-    public float moveSpeed = 6.0f;
+    public float moveSpeed = 4.0f;
     public float movementMultiplier = 5f;
     [SerializeField] float airMultiplier = 0.5f;
 
+    [Header("Sprinting")]
+    [SerializeField] float walkSpeed = 4f;
+    [SerializeField] float sprintSpeed = 6f;
+    [SerializeField] float acceleration = 10f;
+
     [Header("Jumping")]
-    public float jumpForce = 50f;
-    public float fallMultiplier = 2.0f;
+    public float jumpForce = 40f;
+    public float fallMultiplier = 5.0f;
 
     [Header("Keybinds")]
     [SerializeField] KeyCode jumpKey = KeyCode.Space;
+    [SerializeField] KeyCode sprintKey = KeyCode.LeftShift;
 
     [Header("Drag")]
     float groundDrag = 6.0f;
@@ -27,14 +33,32 @@ public class PlayerController : MonoBehaviour
     float verticalMovement;
 
     [Header("Ground Detection")]
+    [SerializeField] Transform groundCheck;
     [SerializeField] LayerMask groundMask;
     bool isGrounded;
     float groundDistance = 0.4f;
 
     Vector3 moveDirection;
+    Vector3 SlopeMoveDirection;
 
     Rigidbody rb;
 
+    RaycastHit slopeHit;
+    private bool OnSlope()
+    {
+        if(Physics.Raycast(transform.position, Vector3.down, out slopeHit,playerHeight / 2 + 0.5f)) 
+        {
+            if (slopeHit.normal != Vector3.up)
+            {
+                return true;
+            }
+            else 
+            {
+                return false;
+            }
+        }
+        return false;
+    }
 
     private void Start()
     {
@@ -44,15 +68,18 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        isGrounded = Physics.CheckSphere(transform.position - new Vector3(0,0,0), groundDistance, groundMask);
+        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
         MyInput();
         ControlDrag();
+        ControlSpeed();
 
         if (Input.GetKeyDown(jumpKey) && isGrounded) 
         {
             Jump();
         }
+
+        SlopeMoveDirection = Vector3.ProjectOnPlane(moveDirection, slopeHit.normal);
     }
 
 
@@ -76,7 +103,19 @@ public class PlayerController : MonoBehaviour
 
     void Jump() 
     {
-        rb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
+        rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0, rb.linearVelocity.z);
+    }
+
+    void ControlSpeed() 
+    {
+        if(Input.GetKey(sprintKey) && isGrounded) 
+        {
+            moveSpeed = Mathf.Lerp(moveSpeed, sprintSpeed, acceleration * Time.deltaTime);
+        }
+        else 
+        {
+            moveSpeed = Mathf.Lerp(moveSpeed, walkSpeed, acceleration * Time.deltaTime);
+        }
     }
 
     void ControlDrag()
@@ -93,13 +132,17 @@ public class PlayerController : MonoBehaviour
 
     void MovePlayer()
     {
-        if (isGrounded) 
+        if (isGrounded && !OnSlope()) 
         {
            rb.AddForce(moveDirection.normalized * moveSpeed * movementMultiplier, ForceMode.Acceleration);
         }
-        else if (!isGrounded) 
+        else if (isGrounded && OnSlope()) 
         {
-           rb.AddForce(moveDirection.normalized * moveSpeed * movementMultiplier * airMultiplier, ForceMode.Acceleration);
+            rb.AddForce(SlopeMoveDirection.normalized * moveSpeed * movementMultiplier, ForceMode.Acceleration);
+        }
+        else if (!isGrounded)
+        {
+            rb.AddForce(moveDirection.normalized * moveSpeed * movementMultiplier * airMultiplier, ForceMode.Acceleration);
         }
     }
 
