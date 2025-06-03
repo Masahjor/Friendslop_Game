@@ -6,7 +6,15 @@ public class MouseLook : MonoBehaviour
     [SerializeField] private float sensY = 100f;
 
     [SerializeField] Transform cam;
-    [SerializeField] Transform Orientation;
+    public Transform targetObject;
+
+    [SerializeField] Transform Head;
+    [SerializeField] Transform Chest;
+    [SerializeField] Transform Body;
+
+    [Header("Eyes")]
+    [SerializeField] Transform LeftEye;
+    [SerializeField] Transform RightEye;
 
     float mouseX;
     float mouseY;
@@ -33,7 +41,19 @@ public class MouseLook : MonoBehaviour
         xRotation = Mathf.Clamp(xRotation, -70, 70);
 
         cam.transform.rotation = Quaternion.Euler(xRotation, yRotation, 0);
-        Orientation.rotation = Quaternion.Euler(0, yRotation, 0);
+    }
+
+    private void LateUpdate()
+    {
+        //The Eyes
+        LeftEye.LookAt(targetObject);
+        RightEye.LookAt(targetObject);
+
+        Head.LookAt(targetObject);
+        //Chest.LookAt(targetObject);
+
+        Body.rotation = Quaternion.Euler(0, yRotation, 0);
+
     }
 
 }
