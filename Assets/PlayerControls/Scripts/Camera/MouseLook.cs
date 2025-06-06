@@ -5,9 +5,17 @@ public class MouseLook : MonoBehaviour
     [SerializeField] private float sensX = 100f;
     [SerializeField] private float sensY = 100f;
 
+    [Header("Body-part Rotation Speed")]
+    [SerializeField] private float EyeSpeed = 0f;
+    [SerializeField] private float HeadSpeed = 0f;
+    [SerializeField] private float ChestSpeed = 0f;
+    [SerializeField] private float BodySpeed = 0f;
+
+    [Header("Camera and Target Direction")]
     [SerializeField] Transform cam;
     public Transform targetObject;
 
+    [Header("Body Parts")]
     [SerializeField] Transform Head;
     [SerializeField] Transform Chest;
     [SerializeField] Transform Body;
@@ -23,6 +31,9 @@ public class MouseLook : MonoBehaviour
 
     float xRotation;
     float yRotation;
+
+    float xEyeRotation;
+    float yEyeRotation;
 
     private void Start()
     {
@@ -46,11 +57,11 @@ public class MouseLook : MonoBehaviour
     private void LateUpdate()
     {
         //The Eyes
-        LeftEye.LookAt(targetObject);
-        RightEye.LookAt(targetObject);
+        LeftEye.localRotation = Quaternion.Euler(xEyeRotation, yEyeRotation, 0);
 
-        Head.LookAt(targetObject);
-        //Chest.LookAt(targetObject);
+        RightEye.localRotation = Quaternion.Euler(xEyeRotation, yEyeRotation, 0);
+
+        Head.rotation = Quaternion.Euler(xRotation, yRotation, 0);
 
         Body.rotation = Quaternion.Euler(0, yRotation, 0);
 

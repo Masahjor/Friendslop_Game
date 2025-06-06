@@ -17,528 +17,7 @@ ModelImporter:
     removeConstantScaleCurves: 0
     motionNodeName: 
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'Crawl' has import animation warnings that might
-      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
-      retargeting quality.\n\t'DEF-spine' has translation animation that will be
-      discarded.\n\t'DEF-spine' is inbetween humanoid transforms and has rotation
-      animation that will be discarded.\n\t'DEF-spine.002' has translation animation
-      that will be discarded.\n\t'DEF-spine.003' has translation animation that will
-      be discarded.\n\t'DEF-upper_arm.L.001' has translation animation that will
-      be discarded.\n\t'DEF-upper_arm.L.001' is inbetween humanoid transforms and
-      has rotation animation that will be discarded.\n\t'DEF-forearm.L' has translation
-      animation that will be discarded.\n\t'DEF-forearm.L.001' has translation animation
-      that will be discarded.\n\t'DEF-forearm.L.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-hand.L' has translation
-      animation that will be discarded.\n\t'DEF-upper_arm.R.001' has translation
-      animation that will be discarded.\n\t'DEF-upper_arm.R.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-forearm.R'
-      has translation animation that will be discarded.\n\t'DEF-forearm.R.001' has
-      translation animation that will be discarded.\n\t'DEF-forearm.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-hand.R'
-      has translation animation that will be discarded.\n\t'DEF-thigh.L.001' has
-      translation animation that will be discarded.\n\t'DEF-thigh.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-shin.L'
-      has translation animation that will be discarded.\n\t'DEF-shin.L.001' has translation
-      animation that will be discarded.\n\t'DEF-shin.L.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-foot.L'
-      has translation animation that will be discarded.\n\t'DEF-thigh.R.001' has
-      translation animation that will be discarded.\n\t'DEF-thigh.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-shin.R'
-      has translation animation that will be discarded.\n\t'DEF-shin.R.001' has translation
-      animation that will be discarded.\n\t'DEF-shin.R.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-foot.R'
-      has translation animation that will be discarded.\n\nClip 'Sneak_Idle' has
-      import animation warnings that might lower retargeting quality:\nNote: Activate
-      translation DOF on avatar to improve retargeting quality.\n\t'DEF-spine' has
-      translation animation that will be discarded.\n\t'DEF-spine.003' has translation
-      animation that will be discarded.\n\t'DEF-upper_arm.L.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-forearm.L.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-upper_arm.R.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-forearm.R.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-thigh.L.001'
-      has translation animation that will be discarded.\n\t'DEF-thigh.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-shin.L'
-      has translation animation that will be discarded.\n\t'DEF-shin.L.001' has translation
-      animation that will be discarded.\n\t'DEF-shin.L.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-foot.L'
-      has translation animation that will be discarded.\n\t'DEF-thigh.R.001' has
-      translation animation that will be discarded.\n\t'DEF-thigh.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-shin.R'
-      has translation animation that will be discarded.\n\t'DEF-shin.R.001' has translation
-      animation that will be discarded.\n\t'DEF-shin.R.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-foot.R'
-      has translation animation that will be discarded.\n\nClip 'Idle to Sneak' has
-      import animation warnings that might lower retargeting quality:\nNote: Activate
-      translation DOF on avatar to improve retargeting quality.\n\t'DEF-spine' has
-      translation animation that will be discarded.\n\t'DEF-spine' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-spine.002'
-      has translation animation that will be discarded.\n\t'DEF-spine.003' has translation
-      animation that will be discarded.\n\t'DEF-upper_arm.L.001' has translation
-      animation that will be discarded.\n\t'DEF-upper_arm.L.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-forearm.L'
-      has translation animation that will be discarded.\n\t'DEF-forearm.L.001' has
-      translation animation that will be discarded.\n\t'DEF-forearm.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-hand.L'
-      has translation animation that will be discarded.\n\t'DEF-upper_arm.R.001'
-      has translation animation that will be discarded.\n\t'DEF-upper_arm.R.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-forearm.R'
-      has translation animation that will be discarded.\n\t'DEF-forearm.R.001' has
-      translation animation that will be discarded.\n\t'DEF-forearm.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-hand.R'
-      has translation animation that will be discarded.\n\t'DEF-thigh.L.001' has
-      translation animation that will be discarded.\n\t'DEF-thigh.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-shin.L'
-      has translation animation that will be discarded.\n\t'DEF-shin.L.001' has translation
-      animation that will be discarded.\n\t'DEF-shin.L.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-foot.L'
-      has translation animation that will be discarded.\n\t'DEF-toe.L' has translation
-      animation that will be discarded.\n\t'DEF-thigh.R.001' has translation animation
-      that will be discarded.\n\t'DEF-thigh.R.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-shin.R' has translation
-      animation that will be discarded.\n\t'DEF-shin.R.001' has translation animation
-      that will be discarded.\n\t'DEF-shin.R.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-foot.R' has translation
-      animation that will be discarded.\n\nClip 'Idle_1' has import animation warnings
-      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
-      to improve retargeting quality.\n\t'DEF-spine' has translation animation that
-      will be discarded.\n\t'DEF-spine.002' has translation animation that will be
-      discarded.\n\t'DEF-spine.003' has translation animation that will be discarded.\n\t'DEF-upper_arm.L.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-forearm.L.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-upper_arm.R.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-forearm.R.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-thigh.L.001'
-      has translation animation that will be discarded.\n\t'DEF-thigh.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-shin.L'
-      has translation animation that will be discarded.\n\t'DEF-shin.L.001' has translation
-      animation that will be discarded.\n\t'DEF-shin.L.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-foot.L'
-      has translation animation that will be discarded.\n\t'DEF-thigh.R.001' has
-      translation animation that will be discarded.\n\t'DEF-thigh.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-shin.R'
-      has translation animation that will be discarded.\n\t'DEF-shin.R.001' has translation
-      animation that will be discarded.\n\t'DEF-shin.R.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-foot.R'
-      has translation animation that will be discarded.\n\nClip 'Idle_2' has import
-      animation warnings that might lower retargeting quality:\nNote: Activate translation
-      DOF on avatar to improve retargeting quality.\n\t'DEF-upper_arm.L.001' has
-      translation animation that will be discarded.\n\t'DEF-upper_arm.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-forearm.L'
-      has translation animation that will be discarded.\n\t'DEF-forearm.L.001' has
-      translation animation that will be discarded.\n\t'DEF-forearm.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-hand.L'
-      has translation animation that will be discarded.\n\t'DEF-upper_arm.R.001'
-      has translation animation that will be discarded.\n\t'DEF-upper_arm.R.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-forearm.R'
-      has translation animation that will be discarded.\n\t'DEF-forearm.R.001' has
-      translation animation that will be discarded.\n\t'DEF-forearm.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-hand.R'
-      has translation animation that will be discarded.\n\t'DEF-spine.005' has translation
-      animation that will be discarded.\n\t'DEF-spine.006' has translation animation
-      that will be discarded.\n\nClip 'Walk_Backward' has import animation warnings
-      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
-      to improve retargeting quality.\n\t'DEF-spine' has translation animation that
-      will be discarded.\n\t'DEF-spine' is inbetween humanoid transforms and has
-      rotation animation that will be discarded.\n\t'DEF-spine.002' has translation
-      animation that will be discarded.\n\t'DEF-spine.003' has translation animation
-      that will be discarded.\n\t'DEF-upper_arm.L.001' has translation animation
-      that will be discarded.\n\t'DEF-upper_arm.L.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-forearm.L' has translation
-      animation that will be discarded.\n\t'DEF-forearm.L.001' has translation animation
-      that will be discarded.\n\t'DEF-forearm.L.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-hand.L' has translation
-      animation that will be discarded.\n\t'DEF-upper_arm.R.001' has translation
-      animation that will be discarded.\n\t'DEF-upper_arm.R.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-forearm.R'
-      has translation animation that will be discarded.\n\t'DEF-forearm.R.001' has
-      translation animation that will be discarded.\n\t'DEF-forearm.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-hand.R'
-      has translation animation that will be discarded.\n\t'DEF-thigh.L.001' has
-      translation animation that will be discarded.\n\t'DEF-thigh.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-shin.L'
-      has translation animation that will be discarded.\n\t'DEF-shin.L.001' has translation
-      animation that will be discarded.\n\t'DEF-shin.L.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-foot.L'
-      has translation animation that will be discarded.\n\t'DEF-toe.L' has translation
-      animation that will be discarded.\n\t'DEF-thigh.R.001' has translation animation
-      that will be discarded.\n\t'DEF-thigh.R.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-shin.R' has translation
-      animation that will be discarded.\n\t'DEF-shin.R.001' has translation animation
-      that will be discarded.\n\t'DEF-shin.R.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-foot.R' has translation
-      animation that will be discarded.\n\t'DEF-toe.R' has translation animation
-      that will be discarded.\n\nClip 'Walk_Backward_Left' has import animation warnings
-      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
-      to improve retargeting quality.\n\t'DEF-spine' has translation animation that
-      will be discarded.\n\t'DEF-spine' is inbetween humanoid transforms and has
-      rotation animation that will be discarded.\n\t'DEF-spine.002' has translation
-      animation that will be discarded.\n\t'DEF-spine.003' has translation animation
-      that will be discarded.\n\t'DEF-upper_arm.L.001' has translation animation
-      that will be discarded.\n\t'DEF-upper_arm.L.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-forearm.L' has translation
-      animation that will be discarded.\n\t'DEF-forearm.L.001' has translation animation
-      that will be discarded.\n\t'DEF-forearm.L.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-hand.L' has translation
-      animation that will be discarded.\n\t'DEF-upper_arm.R.001' has translation
-      animation that will be discarded.\n\t'DEF-upper_arm.R.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-forearm.R'
-      has translation animation that will be discarded.\n\t'DEF-forearm.R.001' has
-      translation animation that will be discarded.\n\t'DEF-forearm.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-hand.R'
-      has translation animation that will be discarded.\n\t'DEF-thigh.L.001' has
-      translation animation that will be discarded.\n\t'DEF-thigh.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-shin.L'
-      has translation animation that will be discarded.\n\t'DEF-shin.L.001' has translation
-      animation that will be discarded.\n\t'DEF-shin.L.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-foot.L'
-      has translation animation that will be discarded.\n\t'DEF-toe.L' has translation
-      animation that will be discarded.\n\t'DEF-thigh.R.001' has translation animation
-      that will be discarded.\n\t'DEF-thigh.R.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-shin.R' has translation
-      animation that will be discarded.\n\t'DEF-shin.R.001' has translation animation
-      that will be discarded.\n\t'DEF-shin.R.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-foot.R' has translation
-      animation that will be discarded.\n\t'DEF-toe.R' has translation animation
-      that will be discarded.\n\nClip 'Walk_Backward_Right' has import animation
-      warnings that might lower retargeting quality:\nNote: Activate translation
-      DOF on avatar to improve retargeting quality.\n\t'DEF-spine' has translation
-      animation that will be discarded.\n\t'DEF-spine' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-spine.002' has translation
-      animation that will be discarded.\n\t'DEF-spine.003' has translation animation
-      that will be discarded.\n\t'DEF-upper_arm.L.001' has translation animation
-      that will be discarded.\n\t'DEF-upper_arm.L.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-forearm.L' has translation
-      animation that will be discarded.\n\t'DEF-forearm.L.001' has translation animation
-      that will be discarded.\n\t'DEF-forearm.L.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-hand.L' has translation
-      animation that will be discarded.\n\t'DEF-upper_arm.R.001' has translation
-      animation that will be discarded.\n\t'DEF-upper_arm.R.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-forearm.R'
-      has translation animation that will be discarded.\n\t'DEF-forearm.R.001' has
-      translation animation that will be discarded.\n\t'DEF-forearm.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-hand.R'
-      has translation animation that will be discarded.\n\t'DEF-thigh.L.001' has
-      translation animation that will be discarded.\n\t'DEF-thigh.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-shin.L'
-      has translation animation that will be discarded.\n\t'DEF-shin.L.001' has translation
-      animation that will be discarded.\n\t'DEF-shin.L.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-foot.L'
-      has translation animation that will be discarded.\n\t'DEF-toe.L' has translation
-      animation that will be discarded.\n\t'DEF-thigh.R.001' has translation animation
-      that will be discarded.\n\t'DEF-thigh.R.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-shin.R' has translation
-      animation that will be discarded.\n\t'DEF-shin.R.001' has translation animation
-      that will be discarded.\n\t'DEF-shin.R.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-foot.R' has translation
-      animation that will be discarded.\n\t'DEF-toe.R' has translation animation
-      that will be discarded.\n\nClip 'Walk_Forward' has import animation warnings
-      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
-      to improve retargeting quality.\n\t'DEF-spine' has translation animation that
-      will be discarded.\n\t'DEF-spine' is inbetween humanoid transforms and has
-      rotation animation that will be discarded.\n\t'DEF-spine.002' has translation
-      animation that will be discarded.\n\t'DEF-spine.003' has translation animation
-      that will be discarded.\n\t'DEF-shoulder.L' has translation animation that
-      will be discarded.\n\t'DEF-upper_arm.L.001' has translation animation that
-      will be discarded.\n\t'DEF-upper_arm.L.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-forearm.L' has translation
-      animation that will be discarded.\n\t'DEF-forearm.L.001' has translation animation
-      that will be discarded.\n\t'DEF-forearm.L.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-hand.L' has translation
-      animation that will be discarded.\n\t'DEF-shoulder.R' has translation animation
-      that will be discarded.\n\t'DEF-upper_arm.R.001' has translation animation
-      that will be discarded.\n\t'DEF-upper_arm.R.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-forearm.R' has translation
-      animation that will be discarded.\n\t'DEF-forearm.R.001' has translation animation
-      that will be discarded.\n\t'DEF-forearm.R.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-hand.R' has translation
-      animation that will be discarded.\n\t'DEF-spine.004' has translation animation
-      that will be discarded.\n\t'DEF-thigh.L.001' has translation animation that
-      will be discarded.\n\t'DEF-thigh.L.001' is inbetween humanoid transforms and
-      has rotation animation that will be discarded.\n\t'DEF-shin.L' has translation
-      animation that will be discarded.\n\t'DEF-shin.L.001' has translation animation
-      that will be discarded.\n\t'DEF-shin.L.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-foot.L' has translation
-      animation that will be discarded.\n\t'DEF-thigh.R.001' has translation animation
-      that will be discarded.\n\t'DEF-thigh.R.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-shin.R' has translation
-      animation that will be discarded.\n\t'DEF-shin.R.001' has translation animation
-      that will be discarded.\n\t'DEF-shin.R.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-foot.R' has translation
-      animation that will be discarded.\n\nClip 'Walk_Forward_Left' has import animation
-      warnings that might lower retargeting quality:\nNote: Activate translation
-      DOF on avatar to improve retargeting quality.\n\t'DEF-spine' has translation
-      animation that will be discarded.\n\t'DEF-spine' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-spine.002' has translation
-      animation that will be discarded.\n\t'DEF-spine.003' has translation animation
-      that will be discarded.\n\t'DEF-shoulder.L' has translation animation that
-      will be discarded.\n\t'DEF-upper_arm.L.001' has translation animation that
-      will be discarded.\n\t'DEF-upper_arm.L.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-forearm.L' has translation
-      animation that will be discarded.\n\t'DEF-forearm.L.001' has translation animation
-      that will be discarded.\n\t'DEF-forearm.L.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-hand.L' has translation
-      animation that will be discarded.\n\t'DEF-shoulder.R' has translation animation
-      that will be discarded.\n\t'DEF-upper_arm.R.001' has translation animation
-      that will be discarded.\n\t'DEF-upper_arm.R.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-forearm.R' has translation
-      animation that will be discarded.\n\t'DEF-forearm.R.001' has translation animation
-      that will be discarded.\n\t'DEF-forearm.R.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-hand.R' has translation
-      animation that will be discarded.\n\t'DEF-spine.004' has translation animation
-      that will be discarded.\n\t'DEF-thigh.L.001' has translation animation that
-      will be discarded.\n\t'DEF-thigh.L.001' is inbetween humanoid transforms and
-      has rotation animation that will be discarded.\n\t'DEF-shin.L' has translation
-      animation that will be discarded.\n\t'DEF-shin.L.001' has translation animation
-      that will be discarded.\n\t'DEF-shin.L.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-foot.L' has translation
-      animation that will be discarded.\n\t'DEF-thigh.R.001' has translation animation
-      that will be discarded.\n\t'DEF-thigh.R.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-shin.R' has translation
-      animation that will be discarded.\n\t'DEF-shin.R.001' has translation animation
-      that will be discarded.\n\t'DEF-shin.R.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-foot.R' has translation
-      animation that will be discarded.\n\nClip 'Walk_Forward_Right' has import animation
-      warnings that might lower retargeting quality:\nNote: Activate translation
-      DOF on avatar to improve retargeting quality.\n\t'DEF-spine' has translation
-      animation that will be discarded.\n\t'DEF-spine.002' has translation animation
-      that will be discarded.\n\t'DEF-spine.003' has translation animation that will
-      be discarded.\n\t'DEF-shoulder.L' has translation animation that will be discarded.\n\t'DEF-upper_arm.L.001'
-      has translation animation that will be discarded.\n\t'DEF-upper_arm.L.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-forearm.L'
-      has translation animation that will be discarded.\n\t'DEF-forearm.L.001' has
-      translation animation that will be discarded.\n\t'DEF-forearm.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-hand.L'
-      has translation animation that will be discarded.\n\t'DEF-shoulder.R' has translation
-      animation that will be discarded.\n\t'DEF-upper_arm.R.001' has translation
-      animation that will be discarded.\n\t'DEF-upper_arm.R.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-forearm.R'
-      has translation animation that will be discarded.\n\t'DEF-forearm.R.001' has
-      translation animation that will be discarded.\n\t'DEF-forearm.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-hand.R'
-      has translation animation that will be discarded.\n\t'DEF-spine.004' has translation
-      animation that will be discarded.\n\t'DEF-thigh.L.001' has translation animation
-      that will be discarded.\n\t'DEF-thigh.L.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-shin.L' has translation
-      animation that will be discarded.\n\t'DEF-shin.L.001' has translation animation
-      that will be discarded.\n\t'DEF-shin.L.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-foot.L' has translation
-      animation that will be discarded.\n\t'DEF-toe.L' has translation animation
-      that will be discarded.\n\t'DEF-thigh.R.001' has translation animation that
-      will be discarded.\n\t'DEF-thigh.R.001' is inbetween humanoid transforms and
-      has rotation animation that will be discarded.\n\t'DEF-shin.R' has translation
-      animation that will be discarded.\n\t'DEF-shin.R.001' has translation animation
-      that will be discarded.\n\t'DEF-shin.R.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-foot.R' has translation
-      animation that will be discarded.\n\t'DEF-toe.R' has translation animation
-      that will be discarded.\n\nClip 'Walk_Left' has import animation warnings that
-      might lower retargeting quality:\nNote: Activate translation DOF on avatar
-      to improve retargeting quality.\n\t'DEF-spine' has translation animation that
-      will be discarded.\n\t'DEF-upper_arm.L.001' has translation animation that
-      will be discarded.\n\t'DEF-upper_arm.L.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-forearm.L' has translation
-      animation that will be discarded.\n\t'DEF-forearm.L.001' has translation animation
-      that will be discarded.\n\t'DEF-forearm.L.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-hand.L' has translation
-      animation that will be discarded.\n\t'DEF-upper_arm.R.001' has translation
-      animation that will be discarded.\n\t'DEF-upper_arm.R.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-forearm.R'
-      has translation animation that will be discarded.\n\t'DEF-forearm.R.001' has
-      translation animation that will be discarded.\n\t'DEF-forearm.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-hand.R'
-      has translation animation that will be discarded.\n\t'DEF-thigh.L.001' has
-      translation animation that will be discarded.\n\t'DEF-thigh.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-shin.L'
-      has translation animation that will be discarded.\n\t'DEF-shin.L.001' has translation
-      animation that will be discarded.\n\t'DEF-shin.L.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-foot.L'
-      has translation animation that will be discarded.\n\t'DEF-thigh.R.001' has
-      translation animation that will be discarded.\n\t'DEF-thigh.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-shin.R'
-      has translation animation that will be discarded.\n\t'DEF-shin.R.001' has translation
-      animation that will be discarded.\n\t'DEF-shin.R.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-foot.R'
-      has translation animation that will be discarded.\n\t'DEF-toe.R' has translation
-      animation that will be discarded.\n\nClip 'Walk_Right' has import animation
-      warnings that might lower retargeting quality:\nNote: Activate translation
-      DOF on avatar to improve retargeting quality.\n\t'DEF-spine' has translation
-      animation that will be discarded.\n\t'DEF-upper_arm.L.001' has translation
-      animation that will be discarded.\n\t'DEF-upper_arm.L.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-forearm.L'
-      has translation animation that will be discarded.\n\t'DEF-forearm.L.001' has
-      translation animation that will be discarded.\n\t'DEF-forearm.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-hand.L'
-      has translation animation that will be discarded.\n\t'DEF-upper_arm.R.001'
-      has translation animation that will be discarded.\n\t'DEF-upper_arm.R.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-forearm.R'
-      has translation animation that will be discarded.\n\t'DEF-forearm.R.001' has
-      translation animation that will be discarded.\n\t'DEF-forearm.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-hand.R'
-      has translation animation that will be discarded.\n\t'DEF-thigh.L.001' has
-      translation animation that will be discarded.\n\t'DEF-thigh.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-shin.L'
-      has translation animation that will be discarded.\n\t'DEF-shin.L.001' has translation
-      animation that will be discarded.\n\t'DEF-shin.L.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-foot.L'
-      has translation animation that will be discarded.\n\t'DEF-toe.L' has translation
-      animation that will be discarded.\n\t'DEF-thigh.R.001' has translation animation
-      that will be discarded.\n\t'DEF-thigh.R.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-shin.R' has translation
-      animation that will be discarded.\n\t'DEF-shin.R.001' has translation animation
-      that will be discarded.\n\t'DEF-shin.R.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-foot.R' has translation
-      animation that will be discarded.\n\nClip 'Jump_Start' has import animation
-      warnings that might lower retargeting quality:\nNote: Activate translation
-      DOF on avatar to improve retargeting quality.\n\t'DEF-spine' has translation
-      animation that will be discarded.\n\t'DEF-upper_arm.L.001' has translation
-      animation that will be discarded.\n\t'DEF-upper_arm.L.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-forearm.L'
-      has translation animation that will be discarded.\n\t'DEF-forearm.L.001' has
-      translation animation that will be discarded.\n\t'DEF-forearm.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-hand.L'
-      has translation animation that will be discarded.\n\t'DEF-upper_arm.R.001'
-      has translation animation that will be discarded.\n\t'DEF-upper_arm.R.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-forearm.R'
-      has translation animation that will be discarded.\n\t'DEF-forearm.R.001' has
-      translation animation that will be discarded.\n\t'DEF-forearm.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-hand.R'
-      has translation animation that will be discarded.\n\t'DEF-thigh.L.001' has
-      translation animation that will be discarded.\n\t'DEF-thigh.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-shin.L'
-      has translation animation that will be discarded.\n\t'DEF-shin.L.001' has translation
-      animation that will be discarded.\n\t'DEF-shin.L.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-foot.L'
-      has translation animation that will be discarded.\n\t'DEF-thigh.R.001' has
-      translation animation that will be discarded.\n\t'DEF-thigh.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-shin.R'
-      has translation animation that will be discarded.\n\t'DEF-shin.R.001' has translation
-      animation that will be discarded.\n\t'DEF-shin.R.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-foot.R'
-      has translation animation that will be discarded.\n\nClip 'Jump_Transition'
-      has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'DEF-spine'
-      has translation animation that will be discarded.\n\t'DEF-upper_arm.L.001'
-      has translation animation that will be discarded.\n\t'DEF-upper_arm.L.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-forearm.L'
-      has translation animation that will be discarded.\n\t'DEF-forearm.L.001' has
-      translation animation that will be discarded.\n\t'DEF-forearm.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-hand.L'
-      has translation animation that will be discarded.\n\t'DEF-upper_arm.R.001'
-      has translation animation that will be discarded.\n\t'DEF-upper_arm.R.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-forearm.R'
-      has translation animation that will be discarded.\n\t'DEF-forearm.R.001' has
-      translation animation that will be discarded.\n\t'DEF-forearm.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-hand.R'
-      has translation animation that will be discarded.\n\t'DEF-thigh.L.001' has
-      translation animation that will be discarded.\n\t'DEF-thigh.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-shin.L'
-      has translation animation that will be discarded.\n\t'DEF-shin.L.001' has translation
-      animation that will be discarded.\n\t'DEF-shin.L.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-foot.L'
-      has translation animation that will be discarded.\n\t'DEF-thigh.R.001' has
-      translation animation that will be discarded.\n\t'DEF-thigh.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-shin.R'
-      has translation animation that will be discarded.\n\t'DEF-shin.R.001' has translation
-      animation that will be discarded.\n\t'DEF-shin.R.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-foot.R'
-      has translation animation that will be discarded.\n\nClip 'Jump_Fall' has import
-      animation warnings that might lower retargeting quality:\nNote: Activate translation
-      DOF on avatar to improve retargeting quality.\n\t'DEF-spine.002' has translation
-      animation that will be discarded.\n\t'DEF-spine.003' has translation animation
-      that will be discarded.\n\t'DEF-upper_arm.L.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-forearm.L.001' is
-      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-upper_arm.R.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-forearm.R.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-thigh.L.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-shin.L.001'
-      has translation animation that will be discarded.\n\t'DEF-shin.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-foot.L'
-      has translation animation that will be discarded.\n\t'DEF-thigh.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-shin.R.001'
-      has translation animation that will be discarded.\n\t'DEF-shin.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-foot.R'
-      has translation animation that will be discarded.\n\nClip 'Jump_Land' has import
-      animation warnings that might lower retargeting quality:\nNote: Activate translation
-      DOF on avatar to improve retargeting quality.\n\t'DEF-spine' has translation
-      animation that will be discarded.\n\t'DEF-spine' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-spine.002' has translation
-      animation that will be discarded.\n\t'DEF-spine.003' has translation animation
-      that will be discarded.\n\t'DEF-upper_arm.L.001' has translation animation
-      that will be discarded.\n\t'DEF-upper_arm.L.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-forearm.L' has translation
-      animation that will be discarded.\n\t'DEF-forearm.L.001' has translation animation
-      that will be discarded.\n\t'DEF-forearm.L.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-hand.L' has translation
-      animation that will be discarded.\n\t'DEF-upper_arm.R.001' has translation
-      animation that will be discarded.\n\t'DEF-upper_arm.R.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-forearm.R'
-      has translation animation that will be discarded.\n\t'DEF-forearm.R.001' has
-      translation animation that will be discarded.\n\t'DEF-forearm.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-hand.R'
-      has translation animation that will be discarded.\n\t'DEF-thigh.L.001' has
-      translation animation that will be discarded.\n\t'DEF-thigh.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-shin.L'
-      has translation animation that will be discarded.\n\t'DEF-shin.L.001' has translation
-      animation that will be discarded.\n\t'DEF-shin.L.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-foot.L'
-      has translation animation that will be discarded.\n\t'DEF-thigh.R.001' has
-      translation animation that will be discarded.\n\t'DEF-thigh.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-shin.R'
-      has translation animation that will be discarded.\n\t'DEF-shin.R.001' has translation
-      animation that will be discarded.\n\t'DEF-shin.R.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-foot.R'
-      has translation animation that will be discarded.\n\nClip 'Run_1' has import
-      animation warnings that might lower retargeting quality:\nNote: Activate translation
-      DOF on avatar to improve retargeting quality.\n\t'DEF-spine' has translation
-      animation that will be discarded.\n\t'DEF-spine' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-spine.002' has translation
-      animation that will be discarded.\n\t'DEF-spine.003' has translation animation
-      that will be discarded.\n\t'DEF-upper_arm.L.001' has translation animation
-      that will be discarded.\n\t'DEF-upper_arm.L.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-forearm.L' has translation
-      animation that will be discarded.\n\t'DEF-forearm.L.001' has translation animation
-      that will be discarded.\n\t'DEF-forearm.L.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-hand.L' has translation
-      animation that will be discarded.\n\t'DEF-upper_arm.R.001' has translation
-      animation that will be discarded.\n\t'DEF-upper_arm.R.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-forearm.R'
-      has translation animation that will be discarded.\n\t'DEF-forearm.R.001' has
-      translation animation that will be discarded.\n\t'DEF-forearm.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-hand.R'
-      has translation animation that will be discarded.\n\t'DEF-thigh.L.001' has
-      translation animation that will be discarded.\n\t'DEF-thigh.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-shin.L'
-      has translation animation that will be discarded.\n\t'DEF-shin.L.001' has translation
-      animation that will be discarded.\n\t'DEF-shin.L.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-foot.L'
-      has translation animation that will be discarded.\n\t'DEF-toe.L' has translation
-      animation that will be discarded.\n\t'DEF-thigh.R.001' has translation animation
-      that will be discarded.\n\t'DEF-thigh.R.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-shin.R' has translation
-      animation that will be discarded.\n\t'DEF-shin.R.001' has translation animation
-      that will be discarded.\n\t'DEF-shin.R.001' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'DEF-foot.R' has translation
-      animation that will be discarded.\n\t'DEF-toe.R' has translation animation
-      that will be discarded.\n\nClip 'Funny Animal|Idle_1' has import animation
-      warnings that might lower retargeting quality:\nNote: Activate translation
-      DOF on avatar to improve retargeting quality.\n\t'DEF-spine' has translation
-      animation that will be discarded.\n\t'DEF-spine.002' has translation animation
-      that will be discarded.\n\t'DEF-spine.003' has translation animation that will
-      be discarded.\n\t'DEF-upper_arm.L.001' is inbetween humanoid transforms and
-      has rotation animation that will be discarded.\n\t'DEF-forearm.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-upper_arm.R.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-forearm.R.001'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-thigh.L.001'
-      has translation animation that will be discarded.\n\t'DEF-thigh.L.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-shin.L'
-      has translation animation that will be discarded.\n\t'DEF-shin.L.001' has translation
-      animation that will be discarded.\n\t'DEF-shin.L.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-foot.L'
-      has translation animation that will be discarded.\n\t'DEF-thigh.R.001' has
-      translation animation that will be discarded.\n\t'DEF-thigh.R.001' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DEF-shin.R'
-      has translation animation that will be discarded.\n\t'DEF-shin.R.001' has translation
-      animation that will be discarded.\n\t'DEF-shin.R.001' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DEF-foot.R'
-      has translation animation that will be discarded.\n"
+    animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -766,7 +245,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -795,7 +274,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -824,7 +303,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -853,7 +332,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -882,7 +361,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -911,7 +390,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -940,7 +419,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -1085,7 +564,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0

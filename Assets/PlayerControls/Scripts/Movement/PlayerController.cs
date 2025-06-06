@@ -41,7 +41,6 @@ public class PlayerController : MonoBehaviour
     Vector3 SlopeMoveDirection;
 
     Rigidbody rb;
-    Animator animator;
 
     RaycastHit slopeHit;
 
@@ -63,7 +62,6 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
     }
@@ -147,8 +145,6 @@ public class PlayerController : MonoBehaviour
         {
             rb.AddForce(moveDirection.normalized * moveSpeed * movementMultiplier * airMultiplier, ForceMode.Acceleration);
         }
-        animator.SetFloat("VelocityX", moveSpeed);
-        animator.SetFloat("VelocityY", moveSpeed);
 
     }
 }

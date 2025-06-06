@@ -15,6 +15,7 @@ public class RotateHead : MonoBehaviour
     public Transform LeftEye;
     public Transform RightEye;
 
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -35,9 +36,7 @@ public class RotateHead : MonoBehaviour
 
         Head.LookAt(targetObject);
         //Chest.LookAt(targetObject);
-        
-        //Body
-        Body.rotation = Quaternion.Euler(0, yRotation, 0);
+
 
     }
 }
