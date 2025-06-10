@@ -5,12 +5,6 @@ public class MouseLook : MonoBehaviour
     [SerializeField] private float sensX = 100f;
     [SerializeField] private float sensY = 100f;
 
-    [Header("Body-part Rotation Speed")]
-    [SerializeField] private float EyeSpeed = 0f;
-    [SerializeField] private float HeadSpeed = 0f;
-    [SerializeField] private float ChestSpeed = 0f;
-    [SerializeField] private float BodySpeed = 0f;
-
     [Header("Camera and Target Direction")]
     [SerializeField] Transform cam;
     public Transform targetObject;
@@ -66,5 +60,4 @@ public class MouseLook : MonoBehaviour
         Body.rotation = Quaternion.Euler(0, yRotation, 0);
 
     }
-
 }

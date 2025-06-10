@@ -6,18 +6,18 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Transform Orientation;
 
     [Header("Movement")]
-    public float moveSpeed = 4.0f;
+    public float moveSpeed = 2.0f;
     public float movementMultiplier = 5f;
-    [SerializeField] float airMultiplier = 0.5f;
+    [SerializeField] float airMultiplier = 0.4f;
 
     [Header("Sprinting")]
-    [SerializeField] float walkSpeed = 4f;
+    [SerializeField] float walkSpeed = 2f;
     [SerializeField] float sprintSpeed = 6f;
     [SerializeField] float acceleration = 10f;
 
     [Header("Jumping")]
     public float jumpForce = 40f;
-    public float fallMultiplier = 5.0f;
+    public float fallMultiplier = 2.0f;
 
     [Header("Keybinds")]
     [SerializeField] KeyCode jumpKey = KeyCode.Space;
