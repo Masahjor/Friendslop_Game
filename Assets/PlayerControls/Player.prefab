@@ -73,7 +73,6 @@ GameObject:
   - component: {fileID: 8768935569735405770}
   - component: {fileID: 1915860847471150091}
   - component: {fileID: 3566669399619667849}
-  - component: {fileID: 3252806609983662931}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -176,31 +175,6 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 256
---- !u!114 &3252806609983662931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3955883097951171086}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 039c38170cf8f9c4f9c8f07adff64054, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sensX: 100
-  sensY: 100
-  EyeSpeed: 100
-  HeadSpeed: 100
-  ChestSpeed: 100
-  BodySpeed: 100
-  cam: {fileID: 2566430857517654926}
-  targetObject: {fileID: 5343327092548535016}
-  Head: {fileID: 20717557651991858}
-  Chest: {fileID: 342990860282803853}
-  Body: {fileID: 5260828730360392250}
-  LeftEye: {fileID: 7786967451469174352}
-  RightEye: {fileID: 2706010348740299847}
 --- !u!1 &4228525187999980183
 GameObject:
   m_ObjectHideFlags: 0
@@ -563,16 +537,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -3548532885340004125, guid: d6545b8fc4940c44ea17d5e18ac31709, type: 3}
   m_PrefabInstance: {fileID: 5658929775674232273}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &342990860282803853 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -3870277662179247268, guid: d6545b8fc4940c44ea17d5e18ac31709, type: 3}
-  m_PrefabInstance: {fileID: 5658929775674232273}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &2706010348740299847 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7711605899588256150, guid: d6545b8fc4940c44ea17d5e18ac31709, type: 3}
-  m_PrefabInstance: {fileID: 5658929775674232273}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4776603382049452160 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d6545b8fc4940c44ea17d5e18ac31709, type: 3}
@@ -646,12 +610,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b5dd3de59813374fb992e1e50e52a3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
   VelocityZ: 0
   VelocityX: 0
   acceleration: 2
   deceleration: 2
   maximumWalkVelocity: 0.5
   maximumRunVelocity: 2
+  isFalling: 0
   groundCheck: {fileID: 364606414027548210}
   groundMask:
     serializedVersion: 2
@@ -659,10 +625,5 @@ MonoBehaviour:
 --- !u!4 &5260828730360392250 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d6545b8fc4940c44ea17d5e18ac31709, type: 3}
-  m_PrefabInstance: {fileID: 5658929775674232273}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &7786967451469174352 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -6730538358513542271, guid: d6545b8fc4940c44ea17d5e18ac31709, type: 3}
   m_PrefabInstance: {fileID: 5658929775674232273}
   m_PrefabAsset: {fileID: 0}
