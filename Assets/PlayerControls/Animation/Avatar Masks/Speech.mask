@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Speech
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Body
+    m_Weight: 0
+  - m_Path: GimpelRig
+    m_Weight: 0
+  - m_Path: GimpelRig/PelvisIK
+    m_Weight: 0
+  - m_Path: GimpelRig/PelvisIK/PelvisPole
+    m_Weight: 0
+  - m_Path: GimpelRig/Root
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/ElbowIK.L
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/ElbowIK.R
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/HandIK.l
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/HandIK.r
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/HeadCON
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/KneeIK.L
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/KneeIK.R
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Hip.L
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Hip.L/Thigh.L
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Hip.L/Thigh.L/Shin.L
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Hip.L/Thigh.L/Shin.L/Foot.L
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Hip.R
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Hip.R/Thigh.R
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Hip.R/Thigh.R/Shin.R
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Hip.R/Thigh.R/Shin.R/Foot.R
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Neck.001
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Neck.001/Neck.002
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Neck.001/Neck.002/Head
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Neck.001/Neck.002/Head/LowerJaw
+    m_Weight: 1
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Neck.001/Neck.002/Head/LowerJaw/Big
+      Eater_Bottom
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Neck.001/Neck.002/Head/UpperJaw
+    m_Weight: 1
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Neck.001/Neck.002/Head/UpperJaw/Big
+      Eater_Top
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Neck.001/Neck.002/Head/UpperJaw/Ear.L
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Neck.001/Neck.002/Head/UpperJaw/Ear.R
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Neck.001/Neck.002/Head/UpperJaw/Eye.L
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Neck.001/Neck.002/Head/UpperJaw/Eye.L/eye.L
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Neck.001/Neck.002/Head/UpperJaw/Eye.R
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Neck.001/Neck.002/Head/UpperJaw/Eye.R/eye.R
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Neck.001/Neck.002/Head/UpperJaw/EyeCON
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Neck.001/Neck.002/Head/UpperJaw/EyeCON/EyeLook.L
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Neck.001/Neck.002/Head/UpperJaw/EyeCON/EyeLook.R
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Neck.001/Neck.002/Head/UpperJaw/EyeLidBottom.L
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Neck.001/Neck.002/Head/UpperJaw/EyeLidBottom.L/EyeLid_Bottom.L
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Neck.001/Neck.002/Head/UpperJaw/EyeLidBottom.R
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Neck.001/Neck.002/Head/UpperJaw/EyeLidBottom.R/EyeLid_Bottom.R
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Neck.001/Neck.002/Head/UpperJaw/EyeLidTop.L
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Neck.001/Neck.002/Head/UpperJaw/EyeLidTop.L/EyeLid_Top.L
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Neck.001/Neck.002/Head/UpperJaw/EyeLidTop.R
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Neck.001/Neck.002/Head/UpperJaw/EyeLidTop.R/EyeLid_Top.R
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.L
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.L/UpperArm.L
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.L/UpperArm.L/Forearm.L
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.L/UpperArm.L/Forearm.L/Hand.L
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.L/UpperArm.L/Forearm.L/Hand.L/MiddleFinger.L.001
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.L/UpperArm.L/Forearm.L/Hand.L/MiddleFinger.L.001/MiddleFinger.L.002
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.L/UpperArm.L/Forearm.L/Hand.L/MiddleFinger.L.001/MiddleFinger.L.002/MiddleFinger.L.003
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.L/UpperArm.L/Forearm.L/Hand.L/Palm.L.001
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.L/UpperArm.L/Forearm.L/Hand.L/Palm.L.001/Pinky.L.001
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.L/UpperArm.L/Forearm.L/Hand.L/Palm.L.001/Pinky.L.001/Pinky.L.002
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.L/UpperArm.L/Forearm.L/Hand.L/Palm.L.001/Pinky.L.001/Pinky.L.002/Pinky.L.003
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.L/UpperArm.L/Forearm.L/Hand.L/Palm.L.002
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.L/UpperArm.L/Forearm.L/Hand.L/Palm.L.002/IndexFinger.L.001
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.L/UpperArm.L/Forearm.L/Hand.L/Palm.L.002/IndexFinger.L.001/IndexFinger.L.002
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.L/UpperArm.L/Forearm.L/Hand.L/Palm.L.002/IndexFinger.L.001/IndexFinger.L.002/IndexFinger.L.003
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.L/UpperArm.L/Forearm.L/Hand.L/Thumb.L.001
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.L/UpperArm.L/Forearm.L/Hand.L/Thumb.L.001/Thumb.L.002
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.L/UpperArm.L/Forearm.L/Hand.L/Thumb.L.001/Thumb.L.002/Thumb.L.003
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.R
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.R/UpperArm.R
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.R/UpperArm.R/Forearm.R
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.R/UpperArm.R/Forearm.R/Hand.R
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.R/UpperArm.R/Forearm.R/Hand.R/MiddleFinger.R.001
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.R/UpperArm.R/Forearm.R/Hand.R/MiddleFinger.R.001/MiddleFinger.R.002
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.R/UpperArm.R/Forearm.R/Hand.R/MiddleFinger.R.001/MiddleFinger.R.002/MiddleFinger.R.003
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.R/UpperArm.R/Forearm.R/Hand.R/Palm.R.001
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.R/UpperArm.R/Forearm.R/Hand.R/Palm.R.001/Pinky.R.001
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.R/UpperArm.R/Forearm.R/Hand.R/Palm.R.001/Pinky.R.001/Pinky.R.002
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.R/UpperArm.R/Forearm.R/Hand.R/Palm.R.001/Pinky.R.001/Pinky.R.002/Pinky.R.003
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.R/UpperArm.R/Forearm.R/Hand.R/Palm.R.002
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.R/UpperArm.R/Forearm.R/Hand.R/Palm.R.002/IndexFinger.R.001
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.R/UpperArm.R/Forearm.R/Hand.R/Palm.R.002/IndexFinger.R.001/IndexFinger.R.002
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.R/UpperArm.R/Forearm.R/Hand.R/Palm.R.002/IndexFinger.R.001/IndexFinger.R.002/IndexFinger.R.003
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.R/UpperArm.R/Forearm.R/Hand.R/Thumb.R.001
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.R/UpperArm.R/Forearm.R/Hand.R/Thumb.R.001/Thumb.R.002
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Spine.001/Spine.002/Spine.003/Shoulder.R/UpperArm.R/Forearm.R/Hand.R/Thumb.R.001/Thumb.R.002/Thumb.R.003
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Tail.001
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Tail.001/Tail.002
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Tail.001/Tail.002/Tail.003
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Tail.001/Tail.002/Tail.003/Tail.004
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Tail.001/Tail.002/Tail.003/Tail.004/Tail.005
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Tail.001/Tail.002/Tail.003/Tail.004/Tail.005/Tail.006
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Pelvis/Tail.001/Tail.002/Tail.003/Tail.004/Tail.005/Tail.006/Tail.007
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Toes.L
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Toes.L/ToePivot.L
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Toes.L/ToePivot.L/FootIK.L
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Toes.R
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Toes.R/ToePivot.R
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/Toes.R/ToePivot.R/FootIK.R
+    m_Weight: 0
+  - m_Path: GimpelRig/Root/UpperBodyIK
+    m_Weight: 0
