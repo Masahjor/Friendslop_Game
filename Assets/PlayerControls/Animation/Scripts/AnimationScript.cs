@@ -27,6 +27,8 @@ public class AnimationScript : MonoBehaviour
     }
 
     public bool isFalling;
+
+    bool isCrouching;
     
 
     //Increase performance
@@ -58,6 +60,7 @@ public class AnimationScript : MonoBehaviour
         bool backwardPressed = Input.GetKey(KeyCode.S);
         bool runPressed = Input.GetKey(KeyCode.LeftShift);
         bool jumpPressed = Input.GetKey(KeyCode.Space);
+        bool crouchPressed = Input.GetKey(KeyCode.LeftControl);
 
         float currentMaxVelocity = runPressed ? maximumRunVelocity : maximumWalkVelocity;
 
@@ -65,18 +68,28 @@ public class AnimationScript : MonoBehaviour
         //print(isGrounded);
         print(isFalling);
 
-        if (!isGrounded) 
+        if (!isGrounded)
         {
             isFalling = true;
         }
         else { isFalling = false; }
 
-        if (jumpPressed && isGrounded) 
+        if (jumpPressed && isGrounded)
         {
             isJumping = true;
         }
 
-        MovementReset();
+        //Crouch
+        if (crouchPressed && isGrounded)
+        {
+            isCrouching = true;
+        }
+        else
+         { 
+            isCrouching = false;
+         }
+
+            MovementReset();
         Movement();
 
         void MovementReset()
@@ -209,6 +222,7 @@ public class AnimationScript : MonoBehaviour
         animator.SetBool("IsJumping", jumprequest);
         animator.SetBool("isGrounded", isGrounded);
         animator.SetBool("isFalling", isFalling);
+        animator.SetBool("isCrouching", isCrouching);
 
 
     }

@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    Animator animator;
+
     float playerHeight = 1f;
     [SerializeField] Transform Orientation;
 
@@ -37,6 +39,9 @@ public class PlayerController : MonoBehaviour
     bool isGrounded;
     float groundDistance = 0.4f;
 
+    [Header("Crouching")]
+    bool isCrouching;
+
     Vector3 moveDirection;
     Vector3 SlopeMoveDirection;
 
@@ -62,6 +67,7 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
+        animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
     }
@@ -73,6 +79,7 @@ public class PlayerController : MonoBehaviour
         MyInput();
         ControlDrag();
         ControlSpeed();
+        Crouching();
 
         if (Input.GetKeyDown(jumpKey) && isGrounded) 
         {
@@ -80,6 +87,8 @@ public class PlayerController : MonoBehaviour
         }
 
         SlopeMoveDirection = Vector3.ProjectOnPlane(moveDirection, slopeHit.normal);
+        
+        animator.SetBool("isCrouching", isCrouching);
     }
 
 
@@ -146,5 +155,20 @@ public class PlayerController : MonoBehaviour
             rb.AddForce(moveDirection.normalized * moveSpeed * movementMultiplier * airMultiplier, ForceMode.Acceleration);
         }
 
+    }
+
+    void Crouching()
+    {
+        if (Input.GetKey(KeyCode.LeftControl))
+        {
+            isCrouching = true;
+        }
+        if (!Input.GetKey(KeyCode.LeftControl)) 
+        {
+            isCrouching = false;
+        }
+            
+
+        
     }
 }
