@@ -118,7 +118,7 @@ public class PlayerController : MonoBehaviour
 
     void ControlSpeed() 
     {
-        if(Input.GetKey(sprintKey) && isGrounded) 
+        if(Input.GetKey(sprintKey) && isGrounded && !isCrouching) 
         {
             moveSpeed = Mathf.Lerp(moveSpeed, sprintSpeed, acceleration * Time.deltaTime);
         }
@@ -162,8 +162,9 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftControl))
         {
             isCrouching = true;
+            moveSpeed = 1.5f;
         }
-        if (!Input.GetKey(KeyCode.LeftControl)) 
+        else
         {
             isCrouching = false;
         }

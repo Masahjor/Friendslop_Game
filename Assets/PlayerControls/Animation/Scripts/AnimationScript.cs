@@ -21,10 +21,6 @@ public class AnimationScript : MonoBehaviour
     [Header("Jumping")]
 
     bool isJumping;
-    public bool jumprequest 
-    {
-        get { return isJumping; }
-    }
 
     public bool isFalling;
 
@@ -219,7 +215,7 @@ public class AnimationScript : MonoBehaviour
         animator.SetFloat(VelocityZHash, VelocityZ);
         animator.SetFloat(VelocityXHash, VelocityX);
         
-        animator.SetBool("IsJumping", jumprequest);
+        animator.SetBool("IsJumping", isJumping);
         animator.SetBool("isGrounded", isGrounded);
         animator.SetBool("isFalling", isFalling);
         animator.SetBool("isCrouching", isCrouching);
