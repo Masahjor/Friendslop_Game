@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
 public class StateMachine
 {
     StateNode current;
@@ -100,3 +101,4 @@ public class StateMachine
         }
     }
 }
+*/
