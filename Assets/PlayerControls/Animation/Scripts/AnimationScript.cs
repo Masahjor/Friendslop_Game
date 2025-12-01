@@ -20,7 +20,6 @@ public class AnimationScript : MonoBehaviour
 
     [Header("Jumping")]
 
-    bool isJumping;
 
     public bool isFalling;
 
@@ -62,7 +61,7 @@ public class AnimationScript : MonoBehaviour
 
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         //print(isGrounded);
-        print(isFalling);
+        //print(isFalling);
 
         if (!isGrounded)
         {
@@ -70,10 +69,6 @@ public class AnimationScript : MonoBehaviour
         }
         else { isFalling = false; }
 
-        if (jumpPressed && isGrounded)
-        {
-            isJumping = true;
-        }
 
         //Crouch
         if (crouchPressed && isGrounded)
@@ -215,7 +210,6 @@ public class AnimationScript : MonoBehaviour
         animator.SetFloat(VelocityZHash, VelocityZ);
         animator.SetFloat(VelocityXHash, VelocityX);
         
-        animator.SetBool("IsJumping", isJumping);
         animator.SetBool("isGrounded", isGrounded);
         animator.SetBool("isFalling", isFalling);
         animator.SetBool("isCrouching", isCrouching);
